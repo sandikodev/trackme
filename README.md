@@ -1,394 +1,223 @@
-# 📝 Progress Notes - Personal Developer Workspace
+# 📊 TrackMe Personal
 
-> **Note**: Folder ini **tidak akan di-push** ke repository. Gunakan untuk catatan personal, refleksi, dan tracking progress Anda sendiri.
+> **Personal productivity tracker** by **Sandi Kode Dev**  
+> Powered by **Wisenesday™** methodology
 
----
-
-## 🎯 **Tujuan Folder Ini**
-
-Folder `progress/` adalah ruang pribadi untuk **setiap solo developer** dalam tim. Gunakan untuk:
-
-1. **📊 Track Progress**: Catat apa yang sudah dikerjakan hari ini
-2. **🤔 Refleksi**: Evaluasi pembelajaran dan challenges
-3. **💡 Ideas**: Simpan ide-ide untuk development masa depan
-4. **📝 Notes**: Catatan teknis, bug findings, code snippets
-5. **🎯 Planning**: To-do list personal dan roadmap
-6. **🏆 Achievements**: Celebrate small wins!
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success?style=flat-square&logo=github)](https://sandikodev.github.io/trackme)
+[![Wisenesday](https://img.shields.io/badge/Wisenesday™-Methodology-fbbf24?style=flat-square)](./framework/productivity-cycles/WEEKLY-CYCLE-FRAMEWORK.md)
+[![Status](https://img.shields.io/badge/Status-MVP-blue?style=flat-square)](https://github.com/sandikodev/trackme)
 
 ---
 
-## 📁 **Struktur Folder**
+## 🎯 **What is TrackMe Personal?**
+
+TrackMe Personal is a **working tool** for tracking:
+- 🌟 **Weekly Wisenesday™ evaluations** (every Wednesday)
+- 💼 **Daily work sessions** (detailed logs)
+- 📈 **Progress over time** (stats & visualizations)
+- 🤖 **AI collaboration quality** (self-assessment)
+
+**This is NOT a portfolio showcase** — it's my actual productivity tracker!
+
+---
+
+## 🚀 **Quick Links**
+
+- 🏠 **Live Site:** [sandikodev.github.io/trackme](https://sandikodev.github.io/trackme)
+- 📊 **Dashboard:** Current week focus & stats
+- 🌟 **Evaluations:** Weekly Wisenesday™ archive
+- 💼 **Sessions:** Daily work logs
+- 🏢 **Corporate TrackMe:** [konxc.github.io/trackme](https://konxc.github.io/trackme)
+
+---
+
+## 📂 **Repository Structure**
 
 ```
-progress/
-├── README.md              (file ini - akan ter-push ke repo)
-├── TEMPLATE.md            (template untuk daily notes - akan ter-push)
-├── .gitkeep               (keep folder structure - akan ter-push)
+sandikodev/trackme/
+├── docs/                          # GitHub Pages site (static HTML)
+│   ├── assets/
+│   │   ├── css/style.css         # Wisenesday™ themed styles
+│   │   └── js/main.js            # Interactive features
+│   ├── index.html                # Dashboard (main page)
+│   ├── evaluations.html          # Weekly evaluations archive
+│   └── sessions.html             # Daily work sessions log
 │
-├── your-name/             (TIDAK ter-push - personal notes)
-│   ├── 2025-10-21.md
-│   ├── 2025-10-22.md
-│   ├── week-summaries/
-│   │   ├── week-42.md
-│   │   └── week-43.md
-│   ├── ideas.md
-│   ├── learnings.md
-│   └── challenges.md
+├── 2025/                          # Year-based organization
+│   └── 10-October/
+│       ├── WEEK-43-COMPLETE-SUMMARY.md
+│       └── week-43-sessions/
+│           ├── 01-current-status.md
+│           ├── 02-pricing-optimization-plan.md
+│           └── ... (10 session docs)
 │
-└── another-dev/           (TIDAK ter-push - personal notes)
-    ├── daily-logs/
-    ├── reflections/
-    └── todos.md
+├── evaluations/                   # Wisenesday™ evaluations
+│   └── 2025/
+│       └── 10-October/
+│           └── week-43/
+│               ├── EVALUATION-AI-COLLABORATION-2025-10-21.md
+│               ├── CRITICAL-FEEDBACK-GROWTH-2025-10-21.md
+│               └── README.md
+│
+├── case-studies/                  # Deep-dive project analyses
+│   └── 2025-10-October/
+│       ├── TRACKME-REPOSITORY-PLAN.md
+│       ├── TRACKME-ECOSYSTEM-ARCHITECTURE.md
+│       └── TRACKME-CONTRIBUTOR-INFRASTRUCTURE.md
+│
+├── framework/                     # Methodologies & frameworks
+│   └── productivity-cycles/
+│       └── WEEKLY-CYCLE-FRAMEWORK.md (Wisenesday™ guide)
+│
+├── retrospectives/                # Monthly/quarterly reviews
+│
+├── TEMPLATE.md                    # Evaluation template
+├── HOW-TO-USE.md                  # Usage guide
+├── EXAMPLE-2025-10-21.md          # Example evaluation
+└── README.md                      # This file
 ```
 
 ---
 
-## 🚀 **Cara Menggunakan**
+## 🌟 **Wisenesday™ Methodology**
 
-### **1. Setup Personal Folder**
+**Every Wednesday**, I conduct a comprehensive evaluation:
 
-Buat folder dengan nama Anda:
+1. ✅ **Achievements:** What did I complete this week?
+2. 🎯 **Technical Highlights:** New skills & techniques
+3. 🤖 **AI Collaboration:** Quality of my AI partnership
+4. 📚 **Learning & Growth:** Knowledge gained
+5. 🔧 **Challenges & Solutions:** Problems solved
+6. 💡 **Key Insights:** Wisdom extracted
+7. 🎯 **Next Week Goals:** Focus for upcoming week
 
-```bash
-cd progress
-mkdir your-name
-cd your-name
-```
+**Why Wednesday?**  
+Research shows Wednesday is the "hump day" of emotional fatigue. Instead of following the rhythm, I transform it into a **day of wisdom and growth**! 🌟
 
-### **2. Copy Template**
-
-```bash
-cp ../TEMPLATE.md $(date +%Y-%m-%d).md
-```
-
-Atau manual:
-```bash
-# Create daily note
-touch 2025-10-21.md
-```
-
-### **3. Isi Daily Notes**
-
-Gunakan template atau format bebas. Yang penting:
-- ✅ Apa yang dikerjakan
-- 🤔 Challenges yang dihadapi
-- 💡 Apa yang dipelajari
-- 🎯 Next steps
-
-### **4. Review Berkala**
-
-- **Daily**: Isi notes di akhir hari
-- **Weekly**: Buat summary setiap Jumat
-- **Monthly**: Review progress bulanan
+**Read more:** [Wisenesday™ Framework](./framework/productivity-cycles/WEEKLY-CYCLE-FRAMEWORK.md)
 
 ---
 
-## 📋 **Template Daily Notes**
+## 🛠️ **Tech Stack**
 
-Lihat `TEMPLATE.md` untuk template lengkap, atau gunakan struktur ini:
+**Frontend:**
+- HTML5, CSS3 (Custom properties, Grid, Flexbox)
+- Vanilla JavaScript (IntersectionObserver, animations)
+- GitHub Pages (static hosting)
 
-```markdown
-# Daily Progress - [Tanggal]
+**Design:**
+- **Colors:** Gold (#fbbf24), Indigo (#6366f1), Green (#10b981)
+- **Theme:** Dark mode default (Slate/Indigo)
+- **Typography:** Inter (body), Fira Code (code)
+- **Philosophy:** Wisenesday™ wisdom aesthetic
 
-## ✅ Completed Today
-- Task 1
-- Task 2
-
-## 🚧 In Progress
-- Feature X (50%)
-
-## 🤔 Challenges
-- Issue dengan...
-- Perlu belajar tentang...
-
-## 💡 Learnings
-- Learned how to...
-- Discovered that...
-
-## 🎯 Tomorrow
-- [ ] Task 1
-- [ ] Task 2
-```
+**Future Upgrades:**
+- Astro.js for static site generation
+- Svelte components for interactivity
+- Chart.js for visualizations
+- GitHub API integration for live stats
 
 ---
 
-## 💡 **Tips & Best Practices**
+## 📊 **Current Stats**
 
-### **DO's** ✅
-
-- ✅ Tulis dengan jujur (ini untuk diri sendiri)
-- ✅ Catat challenges dan solutions
-- ✅ Simpan code snippets yang berguna
-- ✅ Track time spent (optional)
-- ✅ Celebrate small wins
-- ✅ Review notes Anda secara berkala
-
-### **DON'Ts** ❌
-
-- ❌ Jangan commit ke git (sudah di-gitignore)
-- ❌ Jangan taruh sensitive data (passwords, API keys)
-- ❌ Jangan terlalu formal (ini personal space)
-- ❌ Jangan skip - consistency is key
-- ❌ Jangan share tanpa izin (ini private)
+- 🌟 **Wisenesday™ Streak:** 12 weeks
+- 📝 **Total Evaluations:** 12
+- 💼 **Work Sessions:** 47+
+- ⏱️ **Hours Tracked (Oct):** 156h
+- 🎯 **Active Projects:** 3 (TrackMe, We Will Shine, 2USE)
 
 ---
 
-## 🎨 **Format Bebas**
+## 🚀 **GitHub Pages Deployment**
 
-Anda bebas menggunakan format apapun yang cocok:
+### **Setup Instructions:**
 
-### **Option 1: Markdown (Recommended)**
-```
-progress/
-└── your-name/
-    ├── 2025-10-21.md
-    ├── 2025-10-22.md
-    └── notes.md
-```
+1. Go to [github.com/sandikodev/trackme/settings/pages](https://github.com/sandikodev/trackme/settings/pages)
+2. **Source:** Deploy from a branch
+3. **Branch:** `main`
+4. **Folder:** `/docs`
+5. Click **Save**
+6. Wait ~1 minute for deployment
+7. Visit: **sandikodev.github.io/trackme** ✨
 
-### **Option 2: Notion/Obsidian Export**
-```
-progress/
-└── your-name/
-    ├── notion-export/
-    └── obsidian-vault/
-```
+### **Custom Domain (Optional):**
 
-### **Option 3: Plain Text**
-```
-progress/
-└── your-name/
-    ├── log.txt
-    └── ideas.txt
-```
-
-### **Option 4: Mixed**
-```
-progress/
-└── your-name/
-    ├── daily/
-    ├── weekly/
-    ├── ideas.md
-    ├── bugs.md
-    ├── snippets/
-    └── screenshots/
-```
-
-**Apapun yang works for you!** 🎉
+1. Add `CNAME` file to `docs/`:
+   ```
+   trackme.sandikodev.com
+   ```
+2. Update DNS records at your domain provider
+3. Enable HTTPS in GitHub Pages settings
 
 ---
 
-## 📊 **Contoh Use Cases**
+## 📚 **Usage Guide**
 
-### **Use Case 1: Bug Tracking**
+### **For Viewing:**
 
-```markdown
-# Bug Log
+1. Visit [sandikodev.github.io/trackme](https://sandikodev.github.io/trackme)
+2. Browse **Dashboard** for current week
+3. Check **Evaluations** for Wisenesday™ archive
+4. View **Sessions** for daily work logs
 
-## 2025-10-21
+### **For Tracking (Personal):**
 
-### Bug: Header hilang saat scroll
-- **Status**: Fixed ✅
-- **Root Cause**: Duplicate IDs di sections array
-- **Solution**: Remove duplicates, add warning
-- **Time**: 30 minutes
-- **Learnings**: Always check for duplicate IDs
+1. **Daily:** Add session logs to `2025/MM-Month/week-XX-sessions/`
+2. **Wednesday:** Write Wisenesday™ evaluation in `evaluations/2025/MM-Month/week-XX/`
+3. **Monthly:** Create retrospective in `retrospectives/`
+4. **Commit & Push:** Updates appear on GitHub Pages automatically
+
+---
+
+## 🔗 **Related Repositories**
+
+| Repository | Purpose | URL |
+|------------|---------|-----|
+| **sandikodev/trackme** | Personal tracker (this repo) | [github.com/sandikodev/trackme](https://github.com/sandikodev/trackme) |
+| **konxc/trackme** | Corporate portfolio | [github.com/konxc/trackme](https://github.com/konxc/trackme) |
+| **konxc/trackme-ecosystem** | Production app (planned) | [github.com/konxc/trackme-ecosystem](https://github.com/konxc/trackme-ecosystem) |
+
+---
+
+## 🤝 **Philosophy**
+
+This tracker embodies **Gotong Royong** (mutual cooperation):
+- 🌱 **Open Source:** Share knowledge for community growth
+- 🤖 **AI Partnership:** Amplify human productivity with AI
+- 📊 **Transparency:** Track openly, learn together
+- 🇮🇩 **For Indonesia:** Build competitive, healthy ecosystem
+
+**For the next generation of Indonesian builders.** 🇮🇩✨
+
+---
+
+## 📄 **License**
+
+**MIT License** - Feel free to fork and adapt for your own tracking needs!
+
+**Attribution:** If you use this as a template, please credit:
 ```
-
-### **Use Case 2: Learning Journal**
-
-```markdown
-# Learnings - Svelte 5
-
-## Runes
-- $state() untuk reactive state
-- $derived() untuk computed values
-- $effect() untuk side effects
-- $props() untuk component props
-
-## Example:
-\`\`\`svelte
-let count = $state(0);
-let doubled = $derived(count * 2);
-\`\`\`
-```
-
-### **Use Case 3: Ideas Backlog**
-
-```markdown
-# Feature Ideas
-
-## High Priority
-- [ ] Dark mode toggle
-- [ ] Export data to PDF
-- [ ] Push notifications
-
-## Nice to Have
-- [ ] Voice input
-- [ ] Offline mode
-- [ ] Custom themes
+Based on TrackMe Personal by Sandi Kode Dev
+https://github.com/sandikodev/trackme
 ```
 
 ---
 
-## 🤝 **Sharing (Optional)**
+## 📬 **Contact**
 
-Meskipun notes ini personal, Anda bisa:
-
-1. **Share insights** dengan tim via stand-up
-2. **Extract learnings** untuk team wiki
-3. **Convert to documentation** jika bermanfaat untuk semua
-4. **Discuss challenges** di team meeting
-
-**Tapi file-nya tetap private** di local machine Anda.
+- **GitHub:** [@sandikodev](https://github.com/sandikodev)
+- **Main Portfolio:** [sandikodev.github.io](https://sandikodev.github.io)
+- **Corporate:** [PT Koneksi](https://konxc.space)
 
 ---
 
-## 🔒 **Privacy & Security**
+<div align="center">
 
-- ✅ Folder ini di-gitignore (tidak ter-push)
-- ✅ Hanya ada di local machine Anda
-- ✅ Tidak ter-backup ke repository
-- ⚠️ **WARNING**: Jangan taruh sensitive data!
+**Built with ❤️ for personal growth**
 
-**Good**:
-```
-- Learned about IntersectionObserver
-- Fixed bug in Header component
-- Need to improve TypeScript skills
-```
+🌟 **Happy Wisenesday!** 🌟
 
-**Bad**:
-```
-- API_KEY=abc123xyz (JANGAN!)
-- Password: secretpass (JANGAN!)
-- Customer email: user@example.com (JANGAN!)
-```
+*Make Wednesday your wisdom day!*
 
----
-
-## 📈 **Weekly Summary Template**
-
-Setiap Jumat, buat summary mingguan:
-
-```markdown
-# Week 42 Summary - Oct 21-25, 2025
-
-## 🎯 Goals vs Actual
-- [x] Complete reusable components (100%)
-- [x] Write documentation (100%)
-- [ ] Add tests (50% - continue next week)
-
-## 🏆 Achievements
-- Created 4 production-ready components
-- Wrote 2,340 lines of code
-- Zero linter errors
-
-## 🤔 Challenges
-- Svelte 5 learning curve
-- Accessibility best practices
-- Performance optimization
-
-## 💡 Key Learnings
-- IntersectionObserver for scroll performance
-- ARIA attributes for accessibility
-- CSS contain/will-change for optimization
-
-## 📊 Time Tracking
-- Coding: 20 hours
-- Documentation: 3 hours
-- Code review: 2 hours
-- **Total**: 25 hours
-
-## 🎯 Next Week Goals
-- [ ] Extend design system
-- [ ] Add more variants
-- [ ] Write unit tests
-```
-
----
-
-## 🎓 **Growth Tracking**
-
-Gunakan progress notes untuk track personal growth:
-
-### **Skills Checklist**
-
-```markdown
-# Skills Progress
-
-## Svelte 5
-- [x] Basic runes ($state, $props)
-- [x] Derived state ($derived)
-- [x] Effects ($effect)
-- [ ] Advanced patterns
-- [ ] Performance optimization
-
-## TypeScript
-- [x] Basic types
-- [x] Interfaces
-- [ ] Generics
-- [ ] Advanced types
-
-## Accessibility
-- [x] ARIA attributes
-- [x] Keyboard navigation
-- [ ] Screen reader testing
-- [ ] WCAG compliance
-```
-
----
-
-## 💪 **Stay Motivated**
-
-Gunakan notes untuk celebrate progress:
-
-```markdown
-# Wins This Week 🎉
-
-- Shipped 4 components to production
-- Learned new animation techniques
-- Helped teammate solve a bug
-- Got positive feedback from users
-- Improved code review skills
-
-# Personal Best
-- Most productive week: 2,340 lines
-- Fastest bug fix: 15 minutes
-- Best code review comment count: 12
-```
-
----
-
-## 📞 **Need Help?**
-
-Jika ada pertanyaan tentang:
-- **Setup**: Ask in team chat
-- **Git issues**: Check with lead developer
-- **Best practices**: Refer to this README
-- **Format**: Use whatever works for you!
-
----
-
-## 🎯 **Remember**
-
-> "Progress, not perfection."
-
-Tujuan utama:
-1. **Track** apa yang Anda kerjakan
-2. **Learn** dari challenges
-3. **Grow** sebagai developer
-4. **Reflect** pada journey Anda
-
-**No pressure, just progress!** 🚀
-
----
-
-**Happy coding & happy tracking!** ✨
-
----
-
-**Last Updated**: October 21, 2025  
-**Maintained by**: Development Team  
-**Questions?**: Ask in team chat
-
+</div>
